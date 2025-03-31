@@ -12,7 +12,7 @@ browser.implicitly_wait(10)
 
 # Membuka website dan melakukan maximize website
 browser.get("https://demoqa.com/webtables")
-# browser.maximize_window()
+browser.maximize_window()
 
 
 Data_Registration = {
